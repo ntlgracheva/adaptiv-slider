@@ -1,0 +1,63 @@
+.home-screen {
+    padding-top: 15px;
+    padding-bottom: 65px;
+    background-image: linear-gradient(rgba(47, 50, 75, 0.85), rgba(47, 50, 75, 0.85)), url("../img/home/stag-office-mockup.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.home-screen__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 290px;
+    margin: 0 auto 70px auto;
+    color: var(--color-white);
+}
+
+
+.phone-num-link {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.phone-num-link__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-decoration: underline;
+}
+
+.home-screen__title {
+    margin-bottom: 23px;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.86);
+}
+
+.home-screen__description {
+    margin-bottom: 54px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.button {
+    height: 38px;
+    width: 160px;
+    font-size:  16px;
+    border-radius: 50px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    background-color: var(--color-blue-grey);
+}
+
